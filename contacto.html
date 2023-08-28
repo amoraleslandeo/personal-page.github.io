@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Alejandro Morales</h1>
+        <nav>
+            <a href="./index.html">Inicio</a> <span>/</span>
+            <a href="./acerca_de_mi.html">Acerca de Mí</a> <span>/</span>
+            <a href="./contacto.html">Contacto</a> <span>/</span>
+            <a href="./horario.html">Horario</a> <span>/</span>
+            <a href="./mi_blog.html">Mi Blog</a> <span>/</span>
+            <a href="./mi_playlist.html">Mi Playlist</a>
+        </nav> 
+    <hr>
+    </header>
+    <h2>Contacto</h2>
+
+    <div>Me encuentras en mis redes sociales o puedes escribirme directamente en el siguiente formulario:</div>
+    <form>
+        <label for="fname">Nombres:</label></br>
+        <input type="text" id="fname" name="fname"></br></br>
+        <label for="lname">Apellidos:</label></br>
+        <input type="text" id="lname" name="lname"></br></br>
+        <label for="email">Email:</label></br>
+        <input type="email" id="email" name="email"></br></br>
+        <label for="phone">Telefono:</label></br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"></br>
+        </br>
+        <label for="choose">¿Cómo me encontraste?</label></br>
+        <select name="choose" id="choose">
+            <option value="redes_sociales">Redes Sociales</option>
+            <option value="google" disabled>Google</option>
+            <option value="linkedin">LinkedIn</option>
+            <option value="recomendado">Recomendado</option>
+        </select>
+        </br></br>
+        <div>Estas interesado en:</div>
+        <input type="checkbox" id="frontend" name="frontend" value="frontend">
+        <label for="frontend">Frontend</label>
+        </br>
+        <input type="checkbox" id="backend" name="backend" value="backend">
+        <label for="backend">Backend</label>
+        </br>
+        <input type="checkbox" id="diseno" name="diseno" value="diseno" disabled>
+        <label for="diseno">Diseño</label>
+        </br></br>
+        <div>¿En qué horario prefieres que te contacte?</div>
+        <input type="radio" id="manana" name="horario" value="manana">
+        <label for="manana">Mañana</label>
+        </br>
+        <input type="radio" id="tarde" name="horario" value="tarde">
+        <label for="tarde">Tarde</label>
+        </br>
+        <input type="radio" id="cualquier_momento" name="horario" value="cualquier_momento">
+        <label for="cualquier_momento">Cualquier momento</label>
+        </br></br>
+        <label for="help">Cuentame en que te puedo ayudar:</label></br>
+        <textarea id="help" name="help" rows="7" cols="70"></textarea>
+        </br></br>
+        <button type="button">Enviar</button>
+    </form>
+    </br></br>
+    <footer>
+        <p>Derechos Reservados &copy; <strong>2023</strong></p>
+    </footer>
+
+</body>
+
+</html>
