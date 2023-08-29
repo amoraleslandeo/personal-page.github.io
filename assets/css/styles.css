@@ -38,8 +38,7 @@ header {
       border-left-style: solid;
       border-left-width: 4px;
       border-left-color: var(--color-four);
-      padding-left: 8px;
-      
+      padding-left: 8px;   
 
   }
 
@@ -100,61 +99,3 @@ nav a.active {
       background: var(--color-three);
       border: none;
   }
-
-  input[type='text'],
-  input[type='tel'],
-  input[type='email'],
-  textarea,
-  button,
-  select {
-      font-size: 16px;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 200;
-      padding: 5px;
-      width: 100%;
-      margin-top: 4px;
-      border: none;
-      border-radius: 4px;
-  }
-
-  button {
-    width: auto;
-    padding: 8px;
-    padding-left: 12px;
-    padding-right: 12px;
-    color: var(--color-white);
-    background-color: var(--color-one);
-    
-  }
-
-  textarea {
-    max-width: 100%;
-    max-height: 300px;
-    /*resize: none;*/
-    min-width: 100%;
-    min-height: 200px;
-  }
-
-  form {
-      padding: 20px;
-      background-color: var(--color-three);
-      margin-top: 20px;
-      border-radius: 4px;
-  }
-
-  table.acerca_de_mi > thead > tr {
-       background-color: var(--color-three); 
-  }
-
-  table.acerca_de_mi > thead > tr > th:nth-child(2) {
-    background-color: var(--color-two); 
-}
-
-  table.acerca_de_mi > tbody > tr:nth-child(odd) {
-    background-color: var(--color-five);
-  }
-
-  table.acerca_de_mi > tbody > tr:nth-child(even) {
-    background-color: var(--color-four);
-  }
-
