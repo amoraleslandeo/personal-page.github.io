@@ -2,6 +2,7 @@
 
 <head>
     <title>Contacto</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
 </head>
 
 <body>
@@ -10,7 +11,7 @@
         <nav>
             <a href="./index.html">Inicio</a> <span>/</span>
             <a href="./acerca_de_mi.html">Acerca de Mí</a> <span>/</span>
-            <a href="./contacto.html">Contacto</a> <span>/</span>
+            <a href="./contacto.html" class="active">Contacto</a> <span>/</span>
             <a href="./horario.html">Horario</a> <span>/</span>
             <a href="./mi_blog.html">Mi Blog</a> <span>/</span>
             <a href="./mi_playlist.html">Mi Playlist</a>
@@ -20,15 +21,16 @@
     <main>
     <h2>Contacto</h2>
     <div>Me encuentras en mis redes sociales o puedes escribirme directamente en el siguiente formulario:</div>
+    <!--<div>ejemplo comentado</div>-->
     <form>
         <label for="fname">Nombres:</label></br>
-        <input type="text" id="fname" name="fname"></br></br>
+        <input type="text" id="fname" name="fname" placeholder="Name"></br></br>
         <label for="lname">Apellidos:</label></br>
-        <input type="text" id="lname" name="lname"></br></br>
-        <label for="email">Email:</label></br>
-        <input type="email" id="email" name="email"></br></br>
-        <label for="phone">Telefono:</label></br>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"></br>
+        <input type="text" id="lname" name="lname" placeholder="Last Name"></br></br>
+        <label for="email">Dirección Email:</label></br>
+        <input type="email" id="email" name="email" placeholder="Email"></br></br>
+        <label for="phone">Número Telefónico:</label></br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="123-456-789"></br>
         </br>
         <label for="choose">¿Cómo me encontraste?</label></br>
         <select name="choose" id="choose">
@@ -59,7 +61,7 @@
         <label for="cualquier_momento">Cualquier momento</label>
         </br></br>
         <label for="help">Cuentame en que te puedo ayudar:</label></br>
-        <textarea id="help" name="help" rows="7" cols="70"></textarea>
+        <textarea id="help" name="help" rows="7" placeholder="Mensaje"></textarea>
         </br></br>
         <button type="button">Enviar</button>
     </form>

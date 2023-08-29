@@ -2,6 +2,7 @@
 
 <head>
     <title>Mi primer blog</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
 </head>
 
 <body>
@@ -9,7 +10,7 @@
         <h1>Alejandro Morales</h1>
         <nav>
             <a href="./index.html">Inicio</a> <span>/</span>
-            <a href="./acerca_de_mi.html">Acerca de Mí</a> <span>/</span>
+            <a href="./acerca_de_mi.html" class="active">Acerca de Mí</a> <span>/</span>
             <a href="./contacto.html">Contacto</a> <span>/</span>
             <a href="./horario.html">Horario</a> <span>/</span>
             <a href="./mi_blog.html">Mi Blog</a> <span>/</span>
@@ -31,37 +32,43 @@
             pulvinar viverra rhoncus. Sed ut nisi orci. Suspendisse quis hendrerit nulla, sed pharetra tellus. Proin sed
             ante nec ante euismod posuere non quis nisi. Donec ex nisi, porttitor eleifend vulputate et, varius et mi.
         </p>
-        <img src="./assets/images/acerca_de_mi.jpg" width="500" alt="dissapeared" />
+        <div>
+            <img src="./assets/images/acerca_de_mi.jpg" width="512" alt="dissapeared" />
+        </div>
         </br>
         <h2>Mis servicios</h2>
-        <table border="1" width="85%">
-            <tr>
-                <th>FRONTEND</th>
-                <th>BACKEND</th>
-                <th>DISEÑO</th>
-            </tr>
-            <tr>
-                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png"
-                        width="20" height="20" alt="logo_out"><small>JAVASCRIPT</small></td>
-                <td><img src="https://png2.cleanpng.com/sh/dc4c1ba628baebfc2981be6e3094924a/L0KzQYm3VMI2N5d1j5H0aYP2gLBuTf5wbJYyguU2anH5ccTqkvlxfF58fdQ2YYDzfLrqggRqd58yfep5cnX2g37xk71kd551RadqZUDpSIXsVfU4PWQ8RqI9NkS8RIaBUcUzPGcAS6ICMEO7Roq1kP5o/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e5e7537.0464945815246930703869.png"
-                        width="20" height="20" alt="logo_out"><small>NODE.JS</small></td>
-                <td><img src="https://1000marcas.net/wp-content/uploads/2020/01/Photoshop-Logo.png" width="20"
-                        height="20" alt="logo_out"><small>PHOTOSHOP</small></td>
-            </tr>
-            <tr>
-                <td><img src="https://wiki.tino.org/wp-content/uploads/2021/09/pasted-image-0.png" width="30"
-                        height="20" alt="logo_out"><small>REACT JS</small></td>
-                <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="20"
-                        height="20" alt="logo_out"><small>PYTHON</small></td>
-                <td><img src="https://hostore.com.uy/wp-content/uploads/2018/04/illustrator.png" width="20" height="20"
-                        alt="logo_out"><small>ILLUSTRATOR</small></td>
-            </tr>
-            <tr>
-                <td><img src="https://www.aplyca.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fc63hsprlvlya%2FIacLLeOBR5WCvdCPqKuff%2Fa57a4dc79978ad9e141972054ce9f71e%2Fnextjs3.webp&w=1080&q=75"
-                        width="20" height="20" alt="logo_out"><small>NEXT.JS</small></td>
-                <td></td>
-                <td></td>
-            </tr>
+        <table width="100%" class="acerca_de_mi">
+            <thead>
+                <tr>
+                    <th>FRONTEND</th>
+                    <th>BACKEND</th>
+                    <th>DISEÑO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png"
+                            width="20" height="20" alt="logo_out"><small>JAVASCRIPT</small></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="20"
+                            height="20" alt="logo_out"><small>NODE.JS</small></td>
+                    <td><img src="https://1000marcas.net/wp-content/uploads/2020/01/Photoshop-Logo.png" width="20"
+                            height="20" alt="logo_out"><small>PHOTOSHOP</small></td>
+                </tr>
+                <tr>
+                    <td><img src="https://wiki.tino.org/wp-content/uploads/2021/09/pasted-image-0.png" width="30"
+                            height="20" alt="logo_out"><small>REACT JS</small></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="20"
+                            height="20" alt="logo_out"><small>PYTHON</small></td>
+                    <td><img src="https://hostore.com.uy/wp-content/uploads/2018/04/illustrator.png" width="20"
+                            height="20" alt="logo_out"><small>ILLUSTRATOR</small></td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.aplyca.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fc63hsprlvlya%2FIacLLeOBR5WCvdCPqKuff%2Fa57a4dc79978ad9e141972054ce9f71e%2Fnextjs3.webp&w=1080&q=75"
+                            width="20" height="20" alt="logo_out"><small>NEXT.JS</small></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
         </table>
     </main>
     <footer>

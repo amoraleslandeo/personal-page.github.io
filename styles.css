@@ -1,0 +1,160 @@
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+  :root {
+      --color-white: #ffffff;
+      --color-one: #16302B;
+      --color-two: #694873;
+      --color-three: #8B728E;
+      --color-four: #85B79D;
+      --color-five: #C0E5C8;
+  }
+
+  body {
+      background: var(--color-one);
+      color: var(--color-white);
+      font-size: 16px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+      margin: 0px;
+  }
+
+header {
+    padding-top: 40px;
+}
+
+  h1 {
+      font-size: 42px;
+      color: var(--color-four);
+      text-align: center;
+      font-weight: 600;
+      padding-bottom: 20px;
+  }
+
+  h2 {
+      font-size: 30px;
+      color: var(--color-three);
+      text-align: left;
+      font-weight: 600;
+      border-left-style: solid;
+      border-left-width: 4px;
+      border-left-color: var(--color-four);
+      padding-left: 8px;
+      
+
+  }
+
+  nav {
+      text-align: center;
+      padding-bottom: 20px;
+  }
+
+  nav a {
+      text-decoration: none;
+      color: var(--color-white);
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 1px;
+      background-color: var(--color-two);
+      border-radius: 20px;
+      padding: 6px 13px;
+      margin-left: 4px;
+      margin-right: 4px;
+
+  }
+
+nav a.active {
+    background-color: var(--color-four);
+}
+
+  nav span {
+    display: none;
+  }
+
+  ul li a {
+      text-decoration: none;
+      color: var(--color-white);
+      font-size: 14px;
+      letter-spacing: 1px;
+  }
+
+  main {
+      width: 1024px;
+      margin: 0px auto;
+  }
+
+  footer {
+      text-align: center;
+      font-size: 12px;
+  }
+
+  div img {
+      margin: 0px auto;
+      display: block;
+      border-style: dotted;
+      border-width: 2px;
+      border-color: var(--color-four);
+  }
+
+  hr {
+      height: 1px;
+      background: var(--color-three);
+      border: none;
+  }
+
+  input[type='text'],
+  input[type='tel'],
+  input[type='email'],
+  textarea,
+  button,
+  select {
+      font-size: 16px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+      padding: 5px;
+      width: 100%;
+      margin-top: 4px;
+      border: none;
+      border-radius: 4px;
+  }
+
+  button {
+    width: auto;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: var(--color-white);
+    background-color: var(--color-one);
+    
+  }
+
+  textarea {
+    max-width: 100%;
+    max-height: 300px;
+    /*resize: none;*/
+    min-width: 100%;
+    min-height: 200px;
+  }
+
+  form {
+      padding: 20px;
+      background-color: var(--color-three);
+      margin-top: 20px;
+      border-radius: 4px;
+  }
+
+  table.acerca_de_mi > thead > tr {
+       background-color: var(--color-three); 
+  }
+
+  table.acerca_de_mi > thead > tr > th:nth-child(2) {
+    background-color: var(--color-two); 
+}
+
+  table.acerca_de_mi > tbody > tr:nth-child(odd) {
+    background-color: var(--color-five);
+  }
+
+  table.acerca_de_mi > tbody > tr:nth-child(even) {
+    background-color: var(--color-four);
+  }
+
