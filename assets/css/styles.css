@@ -1,13 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
-
-  :root {
-      --color-white: #ffffff;
-      --color-one: #16302B;
-      --color-two: #694873;
-      --color-three: #8B728E;
-      --color-four: #85B79D;
-      --color-five: #C0E5C8;
-  }
+  @import url('./variables.css');
 
   body {
       background: var(--color-one);
@@ -18,9 +10,9 @@
       margin: 0px;
   }
 
-header {
-    padding-top: 40px;
-}
+  header {
+      padding-top: 40px;
+  }
 
   h1 {
       font-size: 42px;
@@ -38,8 +30,7 @@ header {
       border-left-style: solid;
       border-left-width: 4px;
       border-left-color: var(--color-four);
-      padding-left: 8px;   
-
+      padding-left: 8px;
   }
 
   nav {
@@ -58,15 +49,14 @@ header {
       padding: 6px 13px;
       margin-left: 4px;
       margin-right: 4px;
-
   }
 
-nav a.active {
-    background-color: var(--color-four);
-}
+  nav a.active {
+      background-color: var(--color-four);
+  }
 
   nav span {
-    display: none;
+      display: none;
   }
 
   ul li a {
@@ -98,4 +88,20 @@ nav a.active {
       height: 1px;
       background: var(--color-three);
       border: none;
+  }
+
+table {
+    border: 1px;
+}
+
+  table thead tr th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+
+  table tbody tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
   }

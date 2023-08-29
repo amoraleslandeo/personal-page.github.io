@@ -1,16 +1,17 @@
-table.acerca_de_mi > thead > tr {
-    background-color: var(--color-three); 
+table > thead > tr {
+    background-color: var(--color-two); 
 }
 
-table.acerca_de_mi > thead > tr > th:nth-child(2) {
+table > thead > tr > th:nth-child(2) {
  background-color: var(--color-two); 
 }
 
-table.acerca_de_mi > tbody > tr:nth-child(odd) {
- background-color: var(--color-five);
+table > tbody > tr:nth-child(odd) {
+ background-color: var(--color-three);
 }
 
-table.acerca_de_mi > tbody > tr:nth-child(even) {
+table > tbody > tr:nth-child(even) {
  background-color: var(--color-four);
 }
+
 

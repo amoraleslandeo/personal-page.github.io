@@ -1,0 +1,29 @@
+article h1 {
+    font-size: 25px;
+    color: var(--color-five);
+    text-align: left;
+    font-weight: 600;
+}
+
+article p {
+    margin-bottom: 40px;
+}
+
+article a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-white);
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: var(--color-two);
+    border-radius: 20px;
+    padding: 6px 13px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 80px;
+}

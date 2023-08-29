@@ -1,0 +1,59 @@
+table>thead>tr {
+    background-color: var(--color-two);
+}
+
+table>tbody>tr:nth-child(odd) {
+    background-color: var(--color-three);
+}
+
+table>tbody>tr:nth-child(even) {
+    background-color: var(--color-four);
+}
+
+table>tbody> tr> td > span {
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 6px 13px;
+}
+
+table>tbody>tr>td>span[class='work'] {
+    color:darkslategrey;
+    background-color: yellow;
+}
+
+table>tbody>tr>td>span[class='sad'] {
+    color:darkslategrey;
+    background-color:lightblue;
+}
+
+table>tbody>tr>td>span[class='happy'] {
+    color:var(--color-white);
+    background-color:forestgreen;
+}
+
+table tbody tr td a {
+    background-color:azure;
+    border-radius: 100%;
+    display:inline-block;
+    padding: 10px;
+}
+
+table tbody tr td a svg {
+        width: 25px;
+        height: 25px;
+}
+
+table > thead > tr > th:nth-child(1) {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+table > thead > tr > th:nth-child(6) {
+    padding-left: 4px;
+    padding-right: 10px;
+}
+
+table {
+    margin-top: 20px;
+}
