@@ -17,17 +17,17 @@ table>tbody> tr> td > span {
     padding: 6px 13px;
 }
 
-table>tbody>tr>td>span[class='work'] {
+table>tbody>tr>td>span.work {
     color:darkslategrey;
     background-color: yellow;
 }
 
-table>tbody>tr>td>span[class='sad'] {
+table>tbody>tr>td>span.sad {
     color:darkslategrey;
     background-color:lightblue;
 }
 
-table>tbody>tr>td>span[class='happy'] {
+table>tbody>tr>td>span.happy {
     color:var(--color-white);
     background-color:forestgreen;
 }

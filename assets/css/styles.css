@@ -53,6 +53,7 @@
 
   nav a.active {
       background-color: var(--color-four);
+      color: var(--color-one);
   }
 
   nav span {
@@ -104,4 +105,9 @@ table {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+  }
+
+  p {
+    line-height: 24px;
+    letter-spacing: 1px;
   }
