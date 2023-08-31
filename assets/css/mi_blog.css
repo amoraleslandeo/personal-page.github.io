@@ -1,12 +1,35 @@
+article {
+
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
 article h1 {
-    font-size: 25px;
-    color: var(--color-five);
     text-align: left;
+    font-size: 25px;
+    color: var(--color-one);
     font-weight: 600;
+    padding-bottom: 0px;
+    margin: 0px;
 }
 
 article p {
-    margin-bottom: 40px;
+    color: var(--color-one);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+div {
+    color: var(--color-three);
+    padding-bottom: 10px;
+    
+}
+
+article img {
+    display: inline;
+    width: 100%;
 }
 
 article a {
@@ -26,4 +49,10 @@ hr {
 
 footer {
     margin-top: 80px;
+}
+
+div.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
 }
