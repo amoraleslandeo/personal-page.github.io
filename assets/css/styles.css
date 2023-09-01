@@ -111,3 +111,46 @@ table {
     line-height: 24px;
     letter-spacing: 1px;
   }
+
+/*social media links*/
+ul.social-media {
+    display:flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+  ul.social-media > li > a > svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+ul.social-media > li > a {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+ul li a {
+    border-radius: 4px;
+    display:inline-block;
+    padding: 4px;
+    font-weight: 600;
+}
+
+ul li a.facebook {
+    background-color:#4267b2;    
+}
+
+ul li a.twitter {
+    background-color: #1f9cea;
+}
+
+ul li a.linkedin {
+    background-color: #0277b5;
+}
