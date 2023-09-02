@@ -1,0 +1,71 @@
+.filter-sort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.filter-sort>.activities {
+    display: flex;
+    gap: 10px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+.filter-sort>.activities>li>a {
+    background-color: white;
+    color: var(--color-one);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.filter-sort>.choose>select {
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+}
+
+.grid-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.grid-item>a {
+    text-decoration: none;
+    color: var(--color-one)
+}
+
+.grid-item > a > p {
+    margin-bottom: 0px;
+}
+
+.grid-item>a>img {
+    width: 100%;
+}
+
+.grid-item .date,
+.grid-item .tag {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+}
+
+.grid-item .date {
+    padding-top: 10px;
+}
+
+.grid-item .date svg path {
+    fill: var(--color-two)
+}
+
+.grid-item .tag svg path {
+    fill: var(--color-four)
+}
