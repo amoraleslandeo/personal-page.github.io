@@ -52,6 +52,10 @@
       font-weight: 600;
   }
 
+  nav a:hover {
+    background-color: var(--color-three);
+  }
+
   nav a.active {
       background-color: var(--color-four);
       color: var(--color-one);
@@ -147,11 +151,18 @@ ul li a {
 ul li a.facebook {
     background-color:#4267b2;    
 }
-
+ul li a.facebook:hover {
+    background-color: #6f82a9;
+  }
 ul li a.twitter {
     background-color: #1f9cea;
 }
-
+ul li a.twitter:hover {
+    background-color:#69bbee;
+  }
 ul li a.linkedin {
-    background-color: #0277b5;
+    background-color:#0277b5;
 }
+ul li a.linkedin:hover {
+    background-color: #50829c;
+  }

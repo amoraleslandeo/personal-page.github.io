@@ -42,6 +42,9 @@ article a {
     border-radius: 20px;
     padding: 6px 13px;
 }
+article a:hover {
+    background-color: var(--color-three);
+  }
 
 hr {
     margin-top: 20px;
