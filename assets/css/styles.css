@@ -127,11 +127,12 @@ ul.social-media {
     margin-top: 5px;
 }
 
-  ul.social-media > li > a > svg {
+  ul.social-media > li > a > svg, ul.social-media > li > a > svg > path {
     width: 20px;
     height: 20px;
     fill: white;
 }
+
 
 ul.social-media > li > a {
     display: flex;
@@ -154,11 +155,12 @@ ul li a.facebook {
 ul li a.facebook:hover {
     background-color: #6f82a9;
   }
-ul li a.twitter {
-    background-color: #1f9cea;
+ul li a.github {
+    background-color: #9b59b6;
+    gap: 3px;
 }
-ul li a.twitter:hover {
-    background-color:#69bbee;
+ul li a.github:hover {
+    background-color:#b38fc2;
   }
 ul li a.linkedin {
     background-color:#0277b5;
