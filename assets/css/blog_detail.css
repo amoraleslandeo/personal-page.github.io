@@ -14,3 +14,9 @@ ul.tags > li > a {
     color: var(--color-one);
     font-weight: 600;
 }
+
+div img.blog-detail-image {
+    border-style: none;
+    width: 100%;
+    margin-top: 10px;
+}
