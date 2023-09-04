@@ -27,9 +27,9 @@ div {
     
 }
 
-article img {
-    display: inline;
+article img.blog-image {
     width: 100%;
+    border-style: none;
 }
 
 article a {
@@ -41,6 +41,7 @@ article a {
     background-color: var(--color-two);
     border-radius: 20px;
     padding: 6px 13px;
+    font-weight: 600;
 }
 article a:hover {
     background-color: var(--color-three);
