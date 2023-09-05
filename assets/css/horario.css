@@ -90,3 +90,17 @@ table>tfoot>tr>td {
 table>tfoot>tr>td>p>small {
     letter-spacing: initial;
 }
+
+a.link_click_here {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a.link_click_here:hover {
+    /* border-bottom-style: dotted;
+    border-bottom-color: white;
+    border-bottom-width: 2px; */
+    border-bottom: 2px dotted white;
+}
+
