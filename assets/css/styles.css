@@ -168,3 +168,10 @@ ul li a.linkedin {
 ul li a.linkedin:hover {
     background-color: #50829c;
   }
+
+  ul li a.twitter {
+    background-color: #1f9cea;
+}
+ul li a.twitter:hover {
+    background-color:#69bbee;
+  }
