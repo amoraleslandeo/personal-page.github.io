@@ -14,4 +14,11 @@ table > tbody > tr:nth-child(even) {
  background-color: var(--color-four);
 }
 
+div.about_me_text {
+    display: flex;
+    gap: 20px;
+}
 
+div.about_me_text p:first-of-type {
+    margin-top: initial ;
+}

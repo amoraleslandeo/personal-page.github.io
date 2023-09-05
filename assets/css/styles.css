@@ -91,6 +91,11 @@ div.introduction-phrases-and-image p:first-of-type {
     margin-top: initial;
 }
 
+.mb_20{
+    margin-bottom: 20px;
+
+}
+
   div img {
       margin: 0px auto;
       display: block;
