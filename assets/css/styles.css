@@ -82,6 +82,15 @@
       font-size: 12px;
   }
 
+div.introduction-phrases-and-image {
+    display:flex;
+    gap: 20px;
+}
+
+div.introduction-phrases-and-image p:first-of-type {
+    margin-top: initial;
+}
+
   div img {
       margin: 0px auto;
       display: block;
