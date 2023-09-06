@@ -24,7 +24,7 @@ article p {
 div {
     color: var(--color-three);
     padding-bottom: 10px;
-    
+
 }
 
 article img.blog-image {
@@ -43,9 +43,10 @@ article a {
     padding: 6px 13px;
     font-weight: 600;
 }
+
 article a:hover {
     background-color: var(--color-three);
-  }
+}
 
 hr {
     margin-top: 20px;
@@ -61,3 +62,10 @@ div.grid-container {
     gap: 30px;
 }
 
+@media (max-width: 420px) {
+
+    /* convierte una fila a una columna (abajo hacia arriba)*/
+    .grid-container {
+        grid-template-columns: auto!important;
+    }
+}

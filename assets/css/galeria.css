@@ -42,7 +42,7 @@
     color: var(--color-one)
 }
 
-.grid-item > a > p {
+.grid-item>a>p {
     margin-bottom: 0px;
 }
 
@@ -68,4 +68,22 @@
 
 .grid-item .tag svg path {
     fill: var(--color-four)
+}
+
+@media (max-width: 420px) {
+
+    /* convierte una fila a una columna (abajo hacia arriba)*/
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+
+    .grid-container .grid-item .date,
+    .grid-container .grid-item .tag, .filter-sort .choose {
+        display: none !important;
+    }
+
+    .filter-sort .activities {
+        flex-wrap: wrap;
+    }
+
 }

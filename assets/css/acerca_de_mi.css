@@ -1,17 +1,17 @@
-table > thead > tr {
-    background-color: var(--color-two); 
+table>thead>tr {
+    background-color: var(--color-two);
 }
 
-table > thead > tr > th:nth-child(2) {
- background-color: var(--color-two); 
+table>thead>tr>th:nth-child(2) {
+    background-color: var(--color-two);
 }
 
-table > tbody > tr:nth-child(odd) {
- background-color: var(--color-three);
+table>tbody>tr:nth-child(odd) {
+    background-color: var(--color-three);
 }
 
-table > tbody > tr:nth-child(even) {
- background-color: var(--color-four);
+table>tbody>tr:nth-child(even) {
+    background-color: var(--color-four);
 }
 
 div.about_me_text {
@@ -19,6 +19,27 @@ div.about_me_text {
     gap: 20px;
 }
 
+/*tiene un alcance menor al nth-child, no se utliza mucho pero sirve para el caso a modificar el atributo*/
 div.about_me_text p:first-of-type {
-    margin-top: initial ;
+    margin-top: initial;
+}
+
+@media (max-width: 420px) {
+    /* convierte una fila a una columna (abajo hacia arriba)*/
+    .about_me_text {
+        flex-direction: column;
+    }
+
+    .about_me_text img {
+        width: 100%;
+    }
+
+    .about_me_text.order_text_image div:nth-child(1) {
+        /*reordena de acuerdo a la indicacion*/
+        order: 2;
+    }
+
+    .about_me_text.order_text_image div:nth-child(2) {
+        order: 1;
+    }
 }
