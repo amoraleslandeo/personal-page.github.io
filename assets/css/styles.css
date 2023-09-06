@@ -107,6 +107,17 @@
       div.introduction-phrases-and-image img {
           width: 100%;
       }
+
+      header h1 {
+        font-size: 32px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+      
+      }
+
+
+
+      
     }
     
       .mb_20 {
